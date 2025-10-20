@@ -1,7 +1,7 @@
 
 // 1. Create an array called favoriteFoods with at least 6 foods you love.
 
-const fav_foods = ["steak", "cereal", "doughnuts", "pizza", "chicken", "tacos"];
+const fav_foods = ["steak", "cereal", "doughnuts", "pizza", "chicken", "tacos"]
 
 
 
@@ -40,9 +40,12 @@ function printFoodRecommendation(foodname){
 
 
 // 4b. Call the function at least 3 times
+
 printFoodRecommendation("steak");
-printFoodRecommendation("long john doughnuts");
-printFoodRecommendation("cinnamon toast crunch");
+printFoodRecommendation("long john doughnuts")
+printFoodRecommendation("cinnamon toast crunch")
+
+
 
 // Here's a list of 50 friends' favorite foods:
 let friendFavorites = [
@@ -50,12 +53,9 @@ let friendFavorites = [
   ];
 
 // 5. Print out only foods that have an "a" in the name. For example, "Pizza" would not be included, but "Pasta" would be.
-let foodWithA = friendFavorites.filter(food => food.includes("a"));
-console.log(foodWithA)
-
+let foodsWithA = friendFavorites.filter(food => food.includes("a"));
 
 // 6. Store the result in an array called foodsWithA. Print out the array.
-let foodsWithA = [foodWithA];
-console.log(foodswithA);
+console.log(foodsWithA)
 
 
